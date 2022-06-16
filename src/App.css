@@ -1,38 +1,403 @@
-.App {
+
+
+*{
+  margin: 0;
+  padding: 0;}
+
+
+
+
+
+
+.size {
+  width: 100%;
+  height: 839px;
+  margin-bottom: 21px;
+  margin-top: -468px;
+  z-index: -1;
+
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.heading{
+  
+ text-align: center;
+ margin-top: 30px;
+ grid-column-start: 2;
+ grid-column-end: 3;
+ cursor: pointer;
+ 
+}
+
+.img1 img{
+  width: 364px;
+    height: 268px;
+    display: inline;
+    cursor: pointer;
+    
+
+}
+
+.img1{
+grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.video{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}
+
+
+.lastviddiv{
+  /* border: 5px solid red; */
+  height: 600px;
+  width: 100%;
+  
+}
+.video2{
+position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 1000px;
+  margin-left: 5px;
+  margin-top: -103px;
+  
+
+      
+      
+}
+
+.img2 img{
+  width: 347px;
+  height: 41px;
+  
+}
+
+.img2{
+grid-column-start: 2;
+  grid-column-end: 3;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashes{
+  /* border: 3px solid red; */
+  width: 114px;
+  height: 62px;
+  grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 125px;
+margin-top: 59px;
+cursor: pointer;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.eng{
+  /* border: 3px solid red; */
+  width: 104px;
+  height: 12px;
+  float: right;
+  cursor: pointer;
+}
+.milan{
+  /* border: 3px solid red; */
+  width: 44px;
+  height: 54px;
+  color: #fff;
+    font: 12px/12px KelsonSansRU;
+    text-transform: uppercase;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 199px;
+    cursor: pointer;
+      
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.milan span{
+
+    margin-left: -53px;
+      margin-bottom: 40px;
+      margin-top: -8px;
+    
+}
+
+.monaco{
+  /* border: 3px solid red; */
+  width: 60px;
+  height: 54px;
+  cursor: pointer;
+  
+  color: #fff;
+    font: 12px/12px KelsonSansRU;
+    text-transform: uppercase;
+    /* grid-column-start: 3; */
+    /* grid-column-end: 4; */
+      margin-left: 945px;
+      
+}
+
+.monaco span{
+margin-right: 201px;
+  margin-left: -53px;
+  margin-top: -7px;
+}
+
+
+
+.rewards{
+  grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    margin-top: 44px;
+}
+
+span{
+      width: 50px;
+        height: 1px;
+        background: #fff;
+        display: block;
+}
+
+.eurspan{
+
+    width: 1px;
+    height: 50px;
+    animation-name: spanseur;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      margin-left: 770px;
+}
+
+@keyframes spanseur{
+  0%{height: 0px;}
+  100%{height: 60px;}
+}
+
+
+
+
+.secondpage{
+  /* border: 5px solid red; */
+  margin-top: 260px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 1000px;
+
+  
+  
+}
+
+.mm{
+  height: 80px;
+}
+
+.secondpage div{
+  /* border: 5px solid black; */
+  font: 12px/12px KelsonSansRU;
+  color: #fff;
+  
+}
+
+.p, .c, .m{
+  transition-duration: 1s;
+  font-size: 12px;
+  font: 12px/12px KelsonSansRU;
+}
+
+
+
+.p{
+  background-image: url(mp01.webp);
+  text-align: center;
+  padding-top: 60%;
+  
+  cursor: pointer;
+}
+
+.p:hover {
+  letter-spacing: .45em;
+  
+}
+.c{
+  background-image: url(mp02.webp);
+  text-align: center;
+    padding-top: 60%;
+    text-decoration: none;
+}
+.c:hover {
+  letter-spacing: .45em;
+
+}
+
+.m {
+  background-image: url(mp03.webp);
+  text-align: center;
+    padding-top: 60%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.m a{
+  color: #fff;
+    text-decoration: none;
+}
+
+.p a{
+color: #fff;
+  text-decoration: none;
+}
+
+.c a{
+color: #fff;
+  text-decoration: none;
+}
+
+.m:hover {
+  letter-spacing: .45em;
+
+}
+
+.c span{
+  animation-name: spans;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-left: 357px;
+    margin-top: -8px;
+}
+
+.m span{
+    animation-name: spans;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      margin-left: 357px;
+      margin-top: -8px;
+}
+
+.p span {
+
+  animation-name: spans;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-left: 357px;
+    margin-top: -8px;
+
+}
+
+@keyframes spans{
+  0%{width: 0;}
+  10%{width:1px ;}
+  
+  100%{width: 50px;}
+}
+
+.inside{
+  width: 100px;
+}
+
+
+.lastpage{
+  width: 100%;
+  height: 750px;
+}
+
+
+.abovefooter{
+width: 1519px;
+height: 380px;
+background-color: black;
+/* border: 1px solid red; */
+
+}
+
+.abovefooter div{
   color: white;
+  font-family: Arial, sans-serif !important;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.footer{
+  background-color: black;
+  /* border: 1px solid red; */
+  height: 100px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.left li{
+  float: left;
+  list-style: none;
+  color: #fff;
+    font: 300 12px/12px KelsonSansRU;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.right li{
+  float: right;
+  list-style: none;
+  color: #fff;
+    font: 300 12px/12px KelsonSansRU;
+  cursor: pointer;
+    margin: 10px;
+}
+
+.ldyp{
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  
+  font: 100 34px/23px KelsonSansRU;
+    letter-spacing: 0.4rem;
+  margin-top: 213px;
+  margin-top: -309px;
+  cursor: pointer;
+}
+
+.ldypp{
+  color: #fff;
+    font: 100 23px/48px KelsonSansRU;
+    letter-spacing: .03em;
+  text-align: center;
+    color: white;
+    font-size: 23px;
+  
+    font: 100 23px/23px KelsonSansRU;
+    margin-top: 213px;
+    margin-top: 54px;
+    letter-spacing: .03em;
+    cursor: pointer;
+}
+
+.overlay{
+  /* border: 10px solid red; */
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0,0,0,0.7);
+  z-index: -1;
+  
+}
+
+#meta{
+margin-left: 680px;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid white;
 }
