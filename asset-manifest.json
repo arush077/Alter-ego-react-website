@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Alter-ego-react-website/static/css/main.fc05f22d.css",
+    "main.js": "/Alter-ego-react-website/static/js/main.8b734580.js",
+    "static/js/787.f237a53c.chunk.js": "/Alter-ego-react-website/static/js/787.f237a53c.chunk.js",
+    "static/media/cr1.mp4": "/Alter-ego-react-website/static/media/cr1.c175aaf6b8accb682c3c.mp4",
+    "static/media/cr2.mp4": "/Alter-ego-react-website/static/media/cr2.15542cb50a6b3323bf29.mp4",
+    "static/media/mp03.webp": "/Alter-ego-react-website/static/media/mp03.3fd3bba1985e66424307.webp",
+    "static/media/mp01.webp": "/Alter-ego-react-website/static/media/mp01.6092a9a4b58ee007dc0d.webp",
+    "static/media/mp02.webp": "/Alter-ego-react-website/static/media/mp02.8c10ba884003a1ca62dd.webp",
+    "index.html": "/Alter-ego-react-website/index.html",
+    "main.fc05f22d.css.map": "/Alter-ego-react-website/static/css/main.fc05f22d.css.map",
+    "main.8b734580.js.map": "/Alter-ego-react-website/static/js/main.8b734580.js.map",
+    "787.f237a53c.chunk.js.map": "/Alter-ego-react-website/static/js/787.f237a53c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc05f22d.css",
+    "static/js/main.8b734580.js"
+  ]
+}
